@@ -84,7 +84,7 @@ namespace grafik
                 else if (scene == "gameover")
                 {
                     Raylib.ClearBackground(Color.RED);
-                    Raylib.DrawText("GAME OVER! Tryck tabb for att starta om", 100, 50, 20, Color.WHITE);
+                    Raylib.DrawText("GAME OVER! Tryck tabb for att komma till startenyn", 100, 50, 20, Color.WHITE);
 
 
                     if (Raylib.IsKeyPressed(KeyboardKey.KEY_TAB))
