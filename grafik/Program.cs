@@ -39,30 +39,30 @@ namespace grafik
                 else if (scene == "game")
                 {
                     Raylib.ClearBackground(Color.BLUE);
-                    Raylib.DrawText("starta spelet!", 100, 50, 20, Color.WHITE);
+                    Raylib.DrawText("spela!", 100, 50, 20, Color.WHITE);
 
                     Raylib.DrawRectangle((int)x, (int)y, 30, 30, Color.WHITE);
 
 
                     if (Raylib.IsKeyDown(KeyboardKey.KEY_RIGHT))
                     {
-                        x += 0.1f;
+                        x += 0.5f;
                     }
 
                     else if (Raylib.IsKeyDown(KeyboardKey.KEY_LEFT))
                     {
-                        x -= 0.1f;
+                        x -= 0.5f;
                     }
 
                     else if (Raylib.IsKeyDown(KeyboardKey.KEY_DOWN))
                     {
-                        y += 0.1f;
+                        y += 0.5f;
 
                     }
 
                     else if (Raylib.IsKeyDown(KeyboardKey.KEY_UP))
                     {
-                        y -= 0.1f;
+                        y -= 0.5f;
 
                     }
 
